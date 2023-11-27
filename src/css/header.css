@@ -1,0 +1,40 @@
+header{
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    top:20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px 20px 0px 0px;
+    background: #DBD6A2;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.40);
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+header .navMenu{
+    margin-right: 30px;
+}
+header .navMenu img {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+}
+
+.main{
+    position: absolute;
+}

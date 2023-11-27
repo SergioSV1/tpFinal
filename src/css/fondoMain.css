@@ -1,0 +1,14 @@
+.fondoMain {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 600px;
+
+    border-radius: 20px;
+    opacity: 0.8;
+    background: rgba(232, 232, 232, 0.50);
+    box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.60);
+    backdrop-filter: blur(17.5px);
+}

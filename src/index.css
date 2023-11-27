@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1280px;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #CAC9BC;
+}
+

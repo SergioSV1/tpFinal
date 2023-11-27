@@ -1,0 +1,33 @@
+.fondo {
+    position: relative;
+    width: 510px;
+    height: 640px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.70);
+    background: url(../img/fondo.jpeg) no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.60);
+}
+
+.fondo img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 65px;
+    width: 308px;
+    height: 104px;
+}
+
+.fondo2 {
+    background: url(../img/fondo2.jpeg) no-repeat;
+}
+.fondo3 {
+    background: url(../img/fondo3.jpeg) no-repeat;
+}
+.fondo4 {
+    background: url(../img/fondo4.jpeg) no-repeat;
+}
+.fondo5 {
+    background: url(../img/fondo5.jpeg) no-repeat;
+}

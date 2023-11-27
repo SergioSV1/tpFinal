@@ -1,0 +1,24 @@
+.taskList{
+    position: absolute;
+    top:90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 420px;
+    z-index: 10;
+}
+.taskList h2{
+    color: #332E0C;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    
+}
+
+.taskList .list {
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+}
